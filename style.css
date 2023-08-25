@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.menu {
+  list-style: none;
+  text-align: right;
+}
+
+.item {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.banner {
+  width: 55%;
+  margin-left: 2.5rem;
+}
+
+.icone-biblioteca {
+  width: 15%;
+}
+
+.icones {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer {
+  margin-top: 1rem;
+}

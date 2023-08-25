@@ -1,0 +1,22 @@
+.menu {
+  list-style: none;
+  text-align: right;
+}
+
+.item {
+  display: inline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer {
+  margin-top: 4rem;
+}

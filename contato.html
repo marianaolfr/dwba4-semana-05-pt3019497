@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style_contato.css" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Meu Site</title>
+</head>
+
+<body class="body">
+  <header id="header">
+    <nav class="nav">
+      <ul class="menu">
+        <li class="item"><a class="link" href="index.html">HOME</a></li> |
+        <li class="item"><a class="link" href="eventos.html">EVENTOS</a></li> |
+        <li class="item"><a class="link" href="contato.html">CONTATO</a></li> |
+        <li class="item"><a class="link" href="sobre.html">SOBRE</a></li> |
+        <li class="item"><a class="link" href="entrar.html">ENTRAR</a></li>
+      </ul>
+    </nav>
+
+    <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/Logo.jpg" alt="Logo">
+  </header>
+
+  <h1>Mande uma mensagem</h1>
+
+
+  <ul>
+    <li><label for="nome_2" id="nome_2">Nome <input id="nome_2" name="nome_2" type="text" required /></label>
+    </li>
+    <li><label for="email" id="email">E-mail <input id="email" name="email" type="email" required /></label></li>
+    <li><label for="phone">Telefone
+          <input type="tel" id="phone" name="phone" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})"
+            required /></label> <span>(99) 9999-9999</span></li>
+    <li> Assunto
+      <select id="evento" name="evento">
+        <option value="" disabled selected>-- Selecione --</option>
+        <option value="1">Reclamação</option>
+        <option value="2">Sugestão</option>
+      </select></li>
+    <li><label for="mensagem">Mensagem
+            <textarea id="mensagem" name="mensagem" rows="3" cols="30"></textarea>
+        </label></li>
+    <li><fieldset>
+        <legend>Opção de Resposta</legend>
+        <input type="checkbox" id="checkbox" /> <label for="checkbox">E-mail</label>
+        <input type="checkbox" id="checkbox" /> <label for="checkbox">Telefone</label>
+      </fieldset></li>
+    <li><button>Enviar</button></li>
+  </ul>
+
+  <footer>
+    <div class="icones">
+      <a href="https://www.facebook.com/ifsppirituba/?locale=pt_BR">
+        <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/facebook.png" width="50"
+          alt="Facebook">
+      </a>
+    </div>
+
+    <h5>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</h5>
+  </footer>
+</body>
+
+</html>
